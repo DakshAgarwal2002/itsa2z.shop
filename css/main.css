@@ -29,10 +29,30 @@
   width: 100%;
 }
 
-.card_container {
+.cards-containers {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  padding: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.card {
+  margin-right: 20px;
+  margin-top: 20px;
+  width: 24rem;
+}
+
+.card-header a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.navbar-toggler {
+  margin: 8px 0px 0px 10px;
 }/*# sourceMappingURL=main.css.map */
